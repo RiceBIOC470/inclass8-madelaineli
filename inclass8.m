@@ -1,3 +1,5 @@
+%AW: looks good. See comment below. 1/1.
+
 %Inclass assignment 8
 
 %Using the swalign function
@@ -23,6 +25,10 @@ start
 score
 align
 start
+
+%AW: this is ok, but what is important is that one configuration favors
+% placing gaps in teh sequence and the other favors mismatching without gaps. 
+
 % Having a high penalty limits the algorithm to match the base pairs
 % from 41-60 bp because we would have to skip a base pair/delete a base
 % pair in order to match 41-60bp between the two sequences, which leads to 
